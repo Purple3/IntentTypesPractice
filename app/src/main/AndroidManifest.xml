@@ -11,20 +11,20 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.purple3.intenttypespractice.MainActivity" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".ActivityTwo">
             <intent-filter>
-                <action android:name="android.intent.action.ACTION_SEND" />
+                <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="text/plain" />
             </intent-filter>
         </activity>
         <activity android:name=".ActivityThree">
             <intent-filter>
-                <action android:name="android.intent.action.ACTION_SEND" />
+                <action android:name="com.purple3.intenttypespractice.ActivityThree" />
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="text/plain" />
             </intent-filter>
